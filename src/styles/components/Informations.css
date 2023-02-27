@@ -1,0 +1,60 @@
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1d1d1d;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 50px;
+  margin-left: 30px;
+  text-align: left;
+  width: 83%;
+  border-radius: 5px;
+}
+
+.info-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  padding-bottom: .8rem;
+  margin-bottom: .8rem;
+  border-bottom: 1px solid #444;
+  width: 100%;
+  color: #a6a6a6;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.info-card:hover {
+  transform: scale(1.1);
+}
+
+p {
+  color: fff;
+  font-weight: bold;
+}
+
+svg {
+  background-color: #271b31;
+  padding: 0.4rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+#phone-icon {
+  color: #e93b81;
+}
+
+#pin-icon {
+  color: #6ab5b9
+}
+
+#email-icon {
+  color: #c17ceb
+}
