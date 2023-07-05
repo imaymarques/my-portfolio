@@ -79,6 +79,20 @@
 .home .max-width {
     margin: auto 0 auto 40px;
 }
+.home .home-content a {
+    display: inline-block;
+    background: #fa404f;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #fa404f;
+}
+.home .home-content a:hover{
+    color: #fa404f;
+    background: none;
+}
 .home .home-content .text-1 {
     font-size: 27px;
 }
@@ -149,6 +163,10 @@
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+    }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
     }
     .home .home-content .text-2{
         font-size: 70px;
