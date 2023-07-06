@@ -237,6 +237,11 @@ section .title::after {
     justify-content: space-between;
 }
 
+.skills {
+    background-color: black;
+    color: #fff;
+}
+
 .skills .title::after{
     content: "What I Do";
 }
@@ -247,9 +252,11 @@ section .title::after {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
+    color: #fff;
 }
 .skills .skills-content .left p{
     text-align: justify;
+    color: #fff;
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -274,6 +281,7 @@ section .title::after {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #fff;
 }
 .skills .skills-content .right span{
     font-weight: 500;
