@@ -7,6 +7,16 @@
     text-decoration: none;
 }
 
+.about .about-content,
+.services .serv-content,
+.skills .skills-content,
+.contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -56,10 +66,12 @@
     font-size: 35px;
     font-weight: 500;
 }
+
 .navbar .logo a span {
     color: #fa404f;
     transition: all 0.3s ease;
 }
+
 .navbar.sticky .logo a span {
     color: #fff;
 }
@@ -80,6 +92,7 @@
 .home .max-width {
     margin: auto 0 auto 40px;
 }
+
 .home .home-content a {
     display: inline-block;
     background: #fa404f;
@@ -90,22 +103,27 @@
     border-radius: 6px;
     border: 2px solid #fa404f;
 }
+
 .home .home-content a:hover{
     color: #fa404f;
     background: none;
 }
+
 .home .home-content .text-1 {
     font-size: 27px;
 }
+
 .home .home-content .text-2 {
     font-size: 75px;
     font-weight: 500;
     margin-left: -3px;
 }
+
 .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
 }
+
 .home .home-content .text-3 span {
     color:#fa404f;
     font-weight: 500;
@@ -150,6 +168,7 @@
 section {
     padding: 100px 0;
 }
+
 section .title {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -159,6 +178,7 @@ section .title {
     padding-bottom: 20px;
     position: relative;
 }
+
 section .title::before {
     content: "";
     position: absolute;
@@ -169,6 +189,7 @@ section .title::before {
     background: #111;
     transform: translateX(-50%);
 }
+
 section .title::after {
     position: absolute;
     bottom:-12px;
@@ -183,26 +204,33 @@ section .title::after {
 .about .title::after {
     content: "A little about me";
 }
+
 .about, .skills {
     font-family: 'Roboto', sans-serif;
 }
+
 .about .about-content .left {
     width: 45%;
 }
+
 .about .about-content .right {
     width: 55%;
 }
+
 .about .about-content .right .text {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 .about .about-content .right .text span {
     color: #fa404f;
 }
+
 .about .about-content .right p {
     text-align: justify;
 }
+
 .about .about-content .right a {
     display: inline-block;
     background: #fa404f;
@@ -215,10 +243,12 @@ section .title::after {
     border: 2px solid #fa404f;
     transition: all 0.3s ease;
 }
+
 .about .about-content .right a:hover {
     color: #fa404f;
     background: none;
 }
+
 .about .about-content .left img {
     width: 350px;
     height: 350px;
@@ -226,6 +256,7 @@ section .title::after {
     border-radius: 300px;
     transition: all 0.3s ease;
 }
+
 .about .about-content .left img:hover {
     transform: scale(1.1);
 }
@@ -245,9 +276,11 @@ section .title::after {
 .skills .title::after{
     content: "What I Do";
 }
+
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
+
 .skills .skills-content .left .text{
     font-size: 25px;
     font-weight: 500;
@@ -321,6 +354,101 @@ section .title::after {
 }
 .skills .skills-content .right .node::before{
     width: 90%;
+}
+
+.contact .title::after{
+    content: "Speak to Me";
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content{
+    align-items: flex-start;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px
+}
+.contact .contact-content .row .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .row .info .sub-title{
+    color: #333;
+}
+.contact .contact-content .row ion-icon{
+    font-size: 25px;
+    color: #fa404f;
+}
+.contact .rigth form .fields{
+    display: flex;
+}
+.contact .rigth form .field,
+.contact .rigth form .fields .field{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.contact .rigth form .field input,
+.contact .rigth form .textarea textarea{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+}
+.contact .rigth form .name{
+    margin-right: 10px;
+}
+.contact .rigth form .email{
+    margin-left: 10px;
+}
+.contact .rigth form .textarea{
+    width: 100%;
+    height: 80px;
+}
+.contact .rigth form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .rigth form .button{
+    width: 170px;
+    height: 47px;
+}
+
+.contact .rigth form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fa404f;
+    background: #fa404f;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact .rigth form .button button:hover{
+    color: #fa404f;
+    background: none;
 }
 
 @media (max-width: 1300px) {
