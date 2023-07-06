@@ -95,7 +95,7 @@ html {
 .home .max-width {
     margin: auto 0 auto 40px;
 }
-
+  
 .home .home-content a {
     display: inline-block;
     background: #fa404f;
@@ -413,17 +413,7 @@ section .title::after {
 .project .project-card .card:hover{
     background: #fa404f;
 }
-/* .project .project-card .card img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #fa404f;
-    transition: all 0.3s ease;
-}
-.project .project-card .card:hover img{
-    border-color: #111;
-} */
+
 .project .project-card .card .box{
     display: flex;
     flex-direction: column;
@@ -445,26 +435,6 @@ section .title::after {
 }
 .description {
     color: black;
-}
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    width: 14px;
-    height: 14px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid #fa404f!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 15px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: #fa404f!important;
 }
 
 .contact {
