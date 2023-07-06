@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
     <div class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Port<span>folio</span></a></div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-btn">
                 <ion-icon name="menu-outline"></ion-icon>
@@ -158,10 +161,10 @@
 
     <!--Projects Section-->
 
-    <section class="project" id="teams">
+    <section class="project" id="project">
         <div class="max-width">
             <h2 class="title">My Projects</h2>
-           <div class="carousel owl-carousel ">
+           <div class="project-card">
                <div class="card">
                    <div class="box">
                         <a href="https://github.com/imaymarques/recipes-app-project" target="_blank">
@@ -203,6 +206,14 @@
                         <img src="image/img-5.jpg" alt="">
                         <div class="text">Medieval Store</div>
                         <p class="description">A backend project that creates an API for a medieval items store using Typescript, MySQL and JWT Validation.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <a href="https://github.com/imaymarques/mongodb-commerce-project" target="_blank">
+                        <div class="text">MongoDB Commerce</div>
+                        <p class="description">A backend project of a Commerce Database using MongoDB</p>
                     </a>
                 </div>
             </div>
